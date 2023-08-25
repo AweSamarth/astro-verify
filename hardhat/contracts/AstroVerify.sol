@@ -1,13 +1,13 @@
 //SPDX-License-Identifier: MIT
-pragma solidity ^0.8.21;
+pragma solidity ^0.8.19;
 
 //total parts created
 import "@openzeppelin/contracts/utils/Strings.sol";
 
 
 contract AstroVerify{
-    uint company_id=0;
-    uint part_id=0;
+    uint public company_id=0;
+    uint public part_id=0;
 
     struct Company{
         uint companyId;
@@ -28,6 +28,7 @@ contract AstroVerify{
         address[] allOwners;        
     }
 
+    
 
     struct Registry{
         uint partId;
