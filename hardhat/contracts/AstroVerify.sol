@@ -95,9 +95,7 @@ contract AstroVerify{
         return registryMapping[_serialNo];
     }
 
-    function uselessFunction() public {
-           
-    }
+
 
     receive() external payable {}
 

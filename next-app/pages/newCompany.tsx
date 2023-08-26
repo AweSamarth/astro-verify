@@ -67,7 +67,7 @@ const Home: NextPage = () => {
             />
             <button
 
-              onClick={() => newCompany("randomlmao")}
+              onClick={() => newCompany(address!)}
               className="text-white  border-2 px-2 py-1"
             >
               Create
