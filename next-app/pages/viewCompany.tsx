@@ -79,7 +79,7 @@ const Home: NextPage = () => {
             <div>{"Date and Time of creation: "+ data.companyTimestamp.toString()}</div>
             <div>Parts created by this company:</div>
             
-            <div>{data.partsArray.map((e:any)=><div>{Number(e)}</div>)}</div>
+            <div>{data.partsArray.map((e:any)=><div key={e.toString()}>{Number(e)}</div>)}</div>
 
 
         </div>):""}
