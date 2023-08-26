@@ -76,6 +76,9 @@ async function viewPart(id:number){
 }
 
 
+// async function newRegistry
+
+
   return (
     <div className={styles.container+ " bg-black min-h-screen text-white"}>
       <Head>
