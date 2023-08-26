@@ -142,7 +142,7 @@ const Home: NextPage = () => {
                 <div>Parts created by this company:{" "}
                 
                   {data.partsArray.map((e: any) => (
-                    <span key={Number(e)}>{"id-"+Number(e)+" "}</span>
+                    <span key={(e.toString())}>{"id-"+Number(e)+" "}</span>
                   ))}
                 </div>
               </div>
