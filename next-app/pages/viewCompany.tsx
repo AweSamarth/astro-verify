@@ -98,27 +98,8 @@ const Home: NextPage = () => {
           </div> */}
 
       </div>
-          <div className="text-white">hello</div>
     </main>
   );
 };
 
 export default Home;
-
-
-/*
-companyId
-: 
-1n
-companyName
-: 
-"randomlmao"
-companyTimestamp
-: 
-1693004309n
-partsArray
-: 
-[]
-[[Prototype]]
-: 
-Object*/

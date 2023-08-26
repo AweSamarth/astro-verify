@@ -1,5 +1,5 @@
-export const ADDRESS="0xE4d816a80B572FA7Fd2304120c1C6AD08ae6e7e1"
-export const ABI =[
+export const ADDRESS="0x6Bfdb5ff147e677AFAc15A0601528baF99f0aA23"
+export const ABI = [
   {
     "stateMutability": "payable",
     "type": "fallback"
@@ -87,6 +87,13 @@ export const ABI =[
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "uselessFunction",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {

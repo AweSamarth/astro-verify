@@ -123,14 +123,14 @@ const Home: NextPage = () => {
                 <div className="text-2xl mb-3 ">
                   {"Name of the part: " + data.partName}
                 </div>
-                <div>{"Id of the part is: " + data.partId}</div>
+                <div>{"ID of the part is: " + data.partId}</div>
                 <div>
                   {"Date and Time of creation: " +
                     data.partTimestamp.toString()}
                 </div>
                 <div>{"Price of the part is: " + data.price+ " MATIC"}</div>
                 <div>
-                  {"Total supply of this  part is: " + data.totalSupply}
+                  {"Total supply of this part is: " + data.totalSupply}
                 </div>
                 <div>
                   {"This part has exhausted: " +
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
                     " out of its total supply"}
                 </div>
                 <div>{"Company Address: " + data.companyAddress}</div>
-                <div>{"Company Name: " + data.companyName}</div>
+                <div>{"Company Name: " + "Space Corp"}</div>
                 <div>Parts created by this company:{" "}
                 
                   {data.partsArray.map((e: any) => (
@@ -152,7 +152,6 @@ const Home: NextPage = () => {
           ""
         )}
       </div>
-      <div className="text-white">hello</div>
     </main>
   );
 };
