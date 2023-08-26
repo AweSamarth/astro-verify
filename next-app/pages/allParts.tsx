@@ -98,7 +98,7 @@ const Home: NextPage = () => {
         (data.map((data:any)=>{
 
            return (
-            <div className="mt-12 self-center mb-12 pb-12 bg-gray-900 flex flex-col gap-4 w-full  ">
+            <div key={data.partId} className="mt-12 self-center mb-12 pb-12 bg-gray-900 flex flex-col gap-4 w-full  ">
             <div className="flex  justify-around px-4 py-2">
             <div className="w-[40rem] ">
                 <img src={data.imageUrl} className="object-contain" />{" "}
